@@ -55,7 +55,7 @@ int main()
         printf("Enter a temp in kelvin: ");
 	    scanf("%f", &kel);
 	    fah = ((kel - 273.15)*9)/5+32;
-	    printf("%.2fC is same as %.2fK", kels, fah);
+	    printf("%.2fC is same as %.2fK", kel, fah);
         break;
 
     default:
