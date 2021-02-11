@@ -17,7 +17,7 @@ int main()
         printf("Enter temperature in celcius: ");
 	    scanf("%f", &cel);
 	    fah = (cel*9/5)+32;
-	    printf("%.1fC is same as %.1fF", cel ,fah);
+	    printf("%.2fC is same as %.2fF", cel ,fah);
 	    printf("\n");
         break;    
 
@@ -25,7 +25,7 @@ int main()
         printf("Enter a temp in fah: ");
 	    scanf("%f", &fah);
 	    cel = ((fah - 32)*5)/9;
-	    printf("%.1fF is same as %.1fC", fah, cel);
+	    printf("%.2fF is same as %.2fC", fah, cel);
 	    printf("\n");
         break; 
 
@@ -33,29 +33,29 @@ int main()
         printf("Enter a temp in celcius: ");
 	    scanf("%f", &cel);
 	    kel = (cel + 273.15);
-	    printf("%.1fC is same as %.1fK", cel, kel);
+	    printf("%.2fC is same as %.2fK", cel, kel);
         break;
 
 	case 4:
         printf("Enter a temp in kelvin: ");
 	    scanf("%f", &kel);
 	    cel = (kel - 273.15);
-	    printf("%.1fC is same as %.1fK", fah, cel);
+	    printf("%.2fC is same as %.2fK", fah, cel);
         break;
 
     case 5:
         printf("Enter a temp in fahrenheit: ");
 	    scanf("%f", &fah);
 	    kel = ((fah - 32)*5)/9 +273.15;
-        
-	    printf("%.1fF is same as %.1fK", fah, kel);
+
+	    printf("%.2fF is same as %.2fK", fah, kel);
         break;
 
     case 6:
         printf("Enter a temp in kelvin: ");
 	    scanf("%f", &kel);
 	    fah = ((kel - 273.15)*9)/5+32;
-	    printf("%.1fC is same as %.1fK", kel, fah);
+	    printf("%.2fC is same as %.2fK", kel, fah);
         break;
 
     default:
