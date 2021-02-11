@@ -21,6 +21,7 @@ int main()
 	    printf("\n");
         break;    
 
+//commit
     case 2:
         printf("Enter a temp in fah: ");
 	    scanf("%f", &fah);
