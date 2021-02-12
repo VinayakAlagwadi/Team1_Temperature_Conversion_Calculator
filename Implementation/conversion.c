@@ -1,11 +1,17 @@
 #include <stdio.h>
-#include "convertCelciusToFahrenheit.c"
-#include "convertFahrenheitToCelcius.c"
-#include "convertCelciusToKelvin.c"
-#include "convertKelvinToCelcius.c"
-#include "convertFahrenheitToKelvin.c"
-#include "convertKelvinTofahrenheit.c"
+#include "convertCelciusToFahrenheit.h"
+#include "convertFahrenheitToCelcius.h"
+#include "convertCelciusToKelvin.h"
+#include "convertKelvinToCelcius.h"
+#include "convertFahrenheitToKelvin.h"
+#include "convertKelvinTofahrenheit.h"
 
+void convertCelciusToFahrenheit();
+void convertCelciusToKelvin();
+void convertFahrenheitToCelcius();
+void convertFahrenheitToKelvin();
+void convertKelvinToCelcius();
+void convertKelvinTofahrenheit();
 
 int main()
 {
