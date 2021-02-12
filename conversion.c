@@ -20,7 +20,7 @@ int main()
 	    printf("%.2fC is same as %.2fF", cel ,fah);
 	    printf("\n");
         break;    
-//usecase
+
     case 2:
         printf("Enter a temp in fah: ");
 	    scanf("%f", &fah);

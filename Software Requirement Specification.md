@@ -6,6 +6,8 @@ Feasibility Study:
 What: Calculator to convert among temperature units.
 Why: To perform calculation and change forms of temperature so as to ease it for user.
 Where: Mainly used in hospitals and weather forecasting.
+
+//comment
 When: This application is used when the user wants to convert temperature from one form to another 
 How: Based on the user choice the following formulas are executed:
 •	Celsius to Fahrenheit: fah = (cel*9/5)+32
