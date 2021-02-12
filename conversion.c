@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h> 
 
 void convertCelciusToFahrenheit(float celcius, float multiplication, float fahrenheit)
 {
@@ -30,12 +29,12 @@ void convertCelciusToKelvin(float celcius, float kelvin, float addition)
     printf("%.2fC is same as %.2fK", celcius, kelvin);
 }
 
-void convertKelvinToCelcius(float celcius, float kelvin, float fahrenheit)
+void convertKelvinToCelcius(float celcius, float kelvin)
 {
     printf("Enter a temp in kelvin: ");
     scanf("%f", &kelvin);
     celcius = (kelvin - 273.15);
-    printf("%.2fC is same as %.2fK", fahrenheit, celcius);
+    printf("%.2fK is same as %.2fC", kelvin, celcius);
 }
 void convertFahrenheitToKelvin(float fahrenheit, float subtraction, float kelvin)
 {
@@ -46,12 +45,14 @@ void convertFahrenheitToKelvin(float fahrenheit, float subtraction, float kelvin
     printf("%.2fF is same as %.2fK", fahrenheit, kelvin);
 }
 
-void convertKelvinTofahrenheit(float kelvin, float subtraction, float fahrenheit)
+void convertKelvinTofahrenheit(float kelvin, float fahrenheit)
 {
     printf("Enter a temp in kelvin: ");
     scanf("%f", &kelvin);
+
     subtraction = kelvin - 273.15;
     fahrenheit = (subtraction * 9) / 5 + 32;
+    fahrenheit = ((kelvin - 273.15) * 9) / 5 + 32;
     printf("%.2fK is same as %.2fF", kelvin, fahrenheit);
 }
 
@@ -83,6 +84,7 @@ int main()
 
         // conversion of fahrenheit to celcius
     case 2:
+    //call a funtion to convert Farenheit to celcius
         convertFahrenheitToCelcius(fah, cel, sub);
         break;
 
@@ -93,7 +95,7 @@ int main()
 
     // conversion of kelvin to celcius
     case 4:
-        convertKelvinToCelcius(cel, kel, fah);
+        convertKelvinToCelcius(cel, kel);
         break;
 
         //conversion of fahrenheit to kelvin
@@ -103,7 +105,7 @@ int main()
 
         // conversion of kelvin to fahrenheit
     case 6:
-        convertKelvinTofahrenheit(kel, sub, fah);
+        convertKelvinTofahrenheit(kel, fah);
         break;
 
     default:
