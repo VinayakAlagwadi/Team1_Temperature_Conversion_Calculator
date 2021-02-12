@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include "celToKel.h"
 void convertCelciusToKelvin(float celcius, float kelvin, float addition)
 {
     printf("Enter a temp in celcius: ");
