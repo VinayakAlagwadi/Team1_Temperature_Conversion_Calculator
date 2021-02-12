@@ -52,7 +52,7 @@ void convertKelvinTofahrenheit(float kelvin, float subtraction, float fahrenheit
     scanf("%f", &kelvin);
     subtraction = kelvin - 273.15;
     fahrenheit = (subtraction * 9) / 5 + 32;
-    printf("%.2fK is some as %.2fF", kelvin, fahrenheit);
+    printf("%.2fK is same as %.2fF", kelvin, fahrenheit);
 }
 
 int main()
