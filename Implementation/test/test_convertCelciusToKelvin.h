@@ -3,4 +3,4 @@
 
 int test_convertCelsiusToKelvin(void);
 
-#endif /* #ifndef __TEST_ADDITION_H__ */
+#endif /* #ifndef __TEST_convertCelsiusToKelvin_H__ */
