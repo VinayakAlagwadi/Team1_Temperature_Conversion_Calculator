@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int main convertFahrenheitToCelcius(float fahrenheit, float celcius, float subtraction)
+void convertFahrenheitToCelcius(float fahrenheit, float celcius, float subtraction)
 {
     printf("Enter a temp in fah: ");
     scanf("%f", &fahrenheit);
@@ -8,5 +7,4 @@ int main convertFahrenheitToCelcius(float fahrenheit, float celcius, float subtr
     celcius = (subtraction * 5) / 9;
     printf("%.2fF is same as %.2fC", fahrenheit, celcius);
     printf("\n");
-    return 0;
 }
