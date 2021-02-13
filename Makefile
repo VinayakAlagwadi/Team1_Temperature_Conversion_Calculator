@@ -1,69 +1,59 @@
-########################################################################
-####################### Makefile Template ##############################
-########################################################################
+PROJ_NAME = Temperature
 
-# Compiler settings - Can be customized.
-CC = gcc
-CXXFLAGS = -std=c11 -Wall
-LDFLAGS = 
+# Include additional C function files
+COMM_SRC = src/convertCelciusToFahrenheit.c \
 
-# Makefile settings - Can be customized.
-APPNAME = Team1_Temperature_Conversion_Calculator
-EXT = .c
-SRCDIR = C:/Users/Mahavir/Documents/GitHub/Team1_Temperature_Conversion_Calculator/Implementation
-OBJDIR = obj
+# Include additional C test files
+COMM_TST = test/ test_convertCelciusToFahrenheit.c \
 
-############## Do not change anything from here downwards! #############
-SRC = $(wildcard $(SRCDIR)/*$(EXT))
-OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
-DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
-# UNIX-based OS variables & settings
-RM = rm
-DELOBJ = $(OBJ)
-# Windows OS variables & settings
-DEL = del
-EXE = .exe
-WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# Application Variables
+SRC = $(COMM_SRC) \
+		conversion.c \
 
-########################################################################
-####################### Targets beginning here #########################
-########################################################################
+INC = -Iinc \
 
-all: $(APPNAME)
+LIB = -lm \
 
-# Builds the app
-$(APPNAME): $(OBJ)
-	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+OUT = $(BUILD)/$(PROJ_NAME).out
 
-# Creates the dependecy rules
-%.d: $(SRCDIR)/%$(EXT)
-	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+# Test Variables
+TST_SRC = $(COMM_SRC) \
+			unity/unity.c \
+			test/test_convertCelciusToFahrenheit.c \
+			$(COMM_TST) \
 
-# Includes all .h files
--include $(DEP)
+TST_INC = $(INC) \
+		-Iunity \
+		-Itest \
 
-# Building rule for .o files and its .c/.cpp in combination with all .h
-$(OBJDIR)/%.o: $(SRCDIR)/%$(EXT)
-	$(CC) $(CXXFLAGS) -o $@ -c $<
+TST_LIB = $(LIB) \
 
-################### Cleaning rules for Unix-based OS ###################
-# Cleans complete project
-.PHONY: clean
+TST_OUT = $(BUILD)/test_$(PROJ_NAME).out
+
+# Output directory
+BUILD = build
+
+.PHONY: all test doc clean
+
+$(OUT): $(SRC) $(BUILD)
+	gcc -g $(SRC) $(INC) $(LIB) -o $@
+
+$(TST_OUT): $(TST_SRC) $(BUILD)
+	gcc -g $(TST_SRC) $(TST_INC) $(TST_LIB) -o $@
+
+all: $(OUT)
+
+run: $(OUT)
+	./$(OUT)
+
+test: $(TST_OUT)
+	./$(TST_OUT)
+
+$(BUILD):
+	mkdir $(BUILD)
+
+doc:
+	make -C documentation
+
 clean:
-	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
-
-# Cleans only all files with the extension .d
-.PHONY: cleandep
-cleandep:
-	$(RM) $(DEP)
-
-#################### Cleaning rules for Windows OS #####################
-# Cleans complete project
-.PHONY: cleanw
-cleanw:
-	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
-
-# Cleans only all files with the extension .d
-.PHONY: cleandepw
-cleandepw:
-	$(DEL) $(DEP)
+	rm -rf $(BUILD) documentation/html
