@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "convertCelciusToKelvin.h"
-
+//method to convert celcius to kelvin
 void convertCelciusToKelvin(float celcius, float kelvin, float addition)
 {
     printf("Enter a temp in celcius: ");

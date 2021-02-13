@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "celtokel.h": "c"
+        "celtokel.h": "c",
+        "convertcelciustofahrenheit.h": "c"
     }
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "convertCelciusToFahrenheit.h"
+//method to convert celcius to farenite
 void convertCelciusToFahrenheit(float celcius, float multiplication, float fahrenheit)
 {
     printf("Enter temperature in celcius: ");

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "convertKelvinTofahrenheit.h"
-
+// convert Kelvin To fahrenheit
 void convertKelvinTofahrenheit(float kelvin, float fahrenheit)
 {
     printf("Enter a temp in kelvin: ");
