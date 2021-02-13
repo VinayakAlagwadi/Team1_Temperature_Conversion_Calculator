@@ -45,7 +45,7 @@ void convertFahrenheitToKelvin(float fahrenheit, float subtraction, float kelvin
     printf("%.2fF is same as %.2fK", fahrenheit, kelvin);
 }
 
-void convertKelvinTofahrenheit(float kelvin, float fahrenheit)
+void convertKelvinTofahrenheit(float kelvin, float fahrenheit, float subtraction)
 {
     printf("Enter a temp in kelvin: ");
     scanf("%f", &kelvin);
@@ -105,7 +105,7 @@ int main()
 
         // conversion of kelvin to fahrenheit
     case 6:
-        convertKelvinTofahrenheit(kel, fah);
+        convertKelvinTofahrenheit(kel, fah, sub);
         break;
 
     default:
