@@ -33,7 +33,7 @@ How: Based on the user choice the following formulas are executed:<br />
 
 ### UML Diagram:<br />
 A)	Structural Diagram:<br />
-     ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/classs%20Diagram.png)<br />
+     ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/temp.png)<br />
        Fig: Class Diagram<br />
 B)	Behavioural Diagram:    <br />              
 ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/uscase1.png)<br />
@@ -44,7 +44,7 @@ Fig: Use Case Diagram<br />
    ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/Screenshot%20(2).png)<br />
  
 ### TEST CASES: <br />
-![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/test_cases1.PNG)
+![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/test%20cases2.PNG)
      
 
 

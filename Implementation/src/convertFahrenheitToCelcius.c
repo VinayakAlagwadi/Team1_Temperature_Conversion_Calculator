@@ -9,5 +9,4 @@ void convertFahrenheitToCelcius(float fahrenheit, float celcius, float subtracti
     celcius = (subtraction * 5) / 9;
     printf("%.2fF is same as %.2fC", fahrenheit, celcius);
     printf("\n");
-    
 }
