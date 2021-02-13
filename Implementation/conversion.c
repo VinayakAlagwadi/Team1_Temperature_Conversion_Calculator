@@ -65,6 +65,7 @@ int main()
         convertKelvinTofahrenheit(kel, fah);
         break;
 
+        // If no input is given then default case will be executed
     default:
         printf("invalid entry");
         break;
