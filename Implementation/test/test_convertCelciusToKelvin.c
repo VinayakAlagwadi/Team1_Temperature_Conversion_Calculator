@@ -8,7 +8,7 @@ void test_convertCelciusToKelvin_basic(void)
     // H_01
     int h01_arr[] = {10};
     int h01_n = sizeof(h01_arr)/sizeof(int);
-	TEST_ASSERT_EQUAL( 283.15  , convertCelciusToKelvin(h01_n, (int*)&h01_arr));
+	TEST_ASSERT_EQUAL( 300  , convertCelciusToKelvin(h01_n, (int*)&h01_arr));
 }
 
 int test_convertCelciusToKelvin(void)
