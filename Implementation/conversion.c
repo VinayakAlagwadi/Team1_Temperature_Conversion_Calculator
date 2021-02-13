@@ -3,7 +3,7 @@
 #include "convertFahrenheitToCelcius.h"
 #include "convertCelciusToKelvin.h"
 #include "convertKelvinToCelcius.h"
-#include "convertFahrenheitToKelvin.h" 
+#include "convertFahrenheitToKelvin.h"
 #include "convertKelvinTofahrenheit.h"
 
 void convertCelciusToFahrenheit();
@@ -16,7 +16,7 @@ void convertKelvinTofahrenheit();
 int main()
 {
     //various temrature format
-    float fah = 0, cel = 0, kel = 0;
+    float fah, cel, kel;
     //various arthematic operation
     float mul = 0, sub = 0, add = 0;
     int n;
@@ -35,36 +35,88 @@ int main()
 
         //conversion of celcius to fahrenheit
     case 1:
-        //call the convertCelciusToFahrenheit
-        convertCelciusToFahrenheit(cel, mul, fah);
-        break;
+        if (cel)
+        {
+            while (1)
+            {
+                //call the convertCelciusToFahrenheit
+                convertCelciusToFahrenheit(cel, mul, fah);
+                break;
+            }
+        }
+        else
+            printf("invalid input");
 
         // conversion of fahrenheit to celcius
     case 2:
-    //call a funtion to convert Farenheit to celcius
-        convertFahrenheitToCelcius(fah, cel, sub);
-        break;
+        if (cel)
+        {
+            while (2)
+            {
+                //call a funtion to convert Farenheit to celcius
+                convertFahrenheitToCelcius(fah, cel, sub);
+                break;
+            }
+        }
+        else
+            printf("Invlaid Input");
 
         // conversion of celcius to kelvin
     case 3:
-        convertCelciusToKelvin(cel, kel, add);
-        break;
+        if (fah)
+        {
+            while (3)
+            {
+                //call a funtion convertCelciusToKelvin
+                convertCelciusToKelvin(cel, kel, add);
+                break;
+            }
+        }
+        else
+            printf("Invlaid Input");
 
     // conversion of kelvin to celcius
     case 4:
-        convertKelvinToCelcius(cel, kel);
-        break;
+        if (kel)
+        {
+            while (4)
+            {
+                //call a funtion convertKelvinToCelcius
+                convertKelvinToCelcius(cel, kel);
+                break;
+            }
+        }
+        else
+            printf("Invlaid Input");
 
         //conversion of fahrenheit to kelvin
     case 5:
-        convertFahrenheitToKelvin(fah, sub, kel);
-        break;
+        if (fah)
+        {
+            while (5)
+            {
+                //call a funtion convertFahrenheitToKelvin
+                convertFahrenheitToKelvin(fah, sub, kel);
+                break;
+            }
+        }
 
+        else
+            printf("Invlaid Input");
         // conversion of kelvin to fahrenheit
     case 6:
-        convertKelvinTofahrenheit(kel, fah);
-        break;
+        if (kel)
+        {
+            while (6)
+            {
+                //call a funtion convertKelvinTofahrenheit
+                convertKelvinTofahrenheit(kel, fah);
+                break;
+            }
+        }
 
+        else
+            printf("Invlaid Input");
         // If no input is given then default case will be executed
     default:
         printf("invalid entry");
