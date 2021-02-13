@@ -22,4 +22,3 @@ int test_convertCelciusToKelvin(void)
 	/* Close the Unity Test Framework */
 	return UNITY_END();
 }
-
