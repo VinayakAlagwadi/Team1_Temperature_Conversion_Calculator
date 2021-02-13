@@ -14,4 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
+<<<<<<< HEAD
       run: make -C Implementation/ Makefile
+=======
+      run: make -C Implementation/ all
+>>>>>>> 2c8770aa2c61f4a7d8b5fe2d80def22047929975
