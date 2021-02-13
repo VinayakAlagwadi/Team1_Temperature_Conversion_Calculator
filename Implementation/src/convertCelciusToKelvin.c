@@ -6,5 +6,4 @@ void convertCelciusToKelvin(float celcius, float kelvin, float addition)
     addition = (celcius + 273.15);
     kelvin = addition;
     printf("%.2fC is same as %.2fK", celcius, kelvin);
-   
 }

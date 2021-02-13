@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "convertCelciusToFahrenheit.h"
-#include "convertFahrenheitToCelcius.h"
-#include "convertCelciusToKelvin.h"
-#include "convertKelvinToCelcius.h"
-#include "convertFahrenheitToKelvin.h" 
-#include "convertKelvinTofahrenheit.h"
+#include "inc/convertCelciusToFahrenheit.h"
+#include "inc/convertFahrenheitToCelcius.h"
+#include "inc/convertCelciusToKelvin.h"
+#include "inc/convertKelvinToCelcius.h"
+#include "inc/convertFahrenheitToKelvin.h"
+#include "inc/convertKelvinTofahrenheit.h"
 
 void convertCelciusToFahrenheit();
 void convertCelciusToKelvin();
