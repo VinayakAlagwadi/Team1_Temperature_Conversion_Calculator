@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: Unity - Unit Testing
 
 on:
   push:
@@ -7,11 +7,11 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make -C Implementation/ conversion.c
+      run: make -C Implementation/ test
