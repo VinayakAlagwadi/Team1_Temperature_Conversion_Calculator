@@ -103,7 +103,7 @@ int main()
         convertFahrenheitToKelvin(fah, sub, kel);
         break;
 
-        // conversion of kelvin to fahrenheit
+        // conversion of kelevin to fahrenheit
     case 6:
         convertKelvinTofahrenheit(kel, fah, sub);
         break;
