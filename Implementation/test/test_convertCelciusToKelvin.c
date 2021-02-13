@@ -1,24 +1,19 @@
+
 #include "unity.h"
-#include "convertCelciusToKelvin.h"
-#include "test_convertCelsiusToKelvin.h"
+#include "convertCelciusToKelvin.h" /* The unit to be tested. */
 
+void setUp (void) {} /* Is run before every test, put unit init calls here. */
+void tearDown (void) {} /* Is run after every test, put unit clean-up calls here. */
 
-void test_convertCelciusToKelvin_basic(void)
+void test_convertCelciusToKelvin(void)
 {
-    // H_01
-    int h01_arr[] = {10};
-    int h01_n = sizeof(h01_arr)/sizeof(int);
-	TEST_ASSERT_EQUAL( 283.15  , convertCelciusToKelvin(h01_n, (int*)&h01_arr));
+    TEST_IGNORE_MESSAGE("Hello world!"); /* Ignore this test but print a message. */
 }
 
-int test_convertCelciusToKelvin(void)
+int main (void)
 {
-	/* Initiate the Unity Test Framework */
-	UNITY_BEGIN();
-
-	/* Run Test functions */
-	RUN_TEST(test_convertCelciusToKelvin_basic);
-
-	/* Close the Unity Test Framework */
-	return UNITY_END();
-}
+    UNITY_BEGIN();
+    RUN_TEST(test_convertCelciusToKelvin); /* Run the test. */
+    return UNITY_END();
+}  
+	
