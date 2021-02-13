@@ -44,7 +44,7 @@ Fig: Use Case Diagram<br />
    ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/Screenshot%20(2).png)<br />
  
 ### TEST CASES: <br />
-![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/test_cases1.PNG)
+![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/test%20cases2.PNG)
      
 
 
