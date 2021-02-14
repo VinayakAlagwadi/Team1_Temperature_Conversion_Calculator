@@ -6,7 +6,10 @@ void tearDown (void) {} /* Is run after every test, put unit clean-up calls here
 
 void test_convertKelvinToFahrenheit(void)
 {
-   TEST_IGNORE_MESSAGE("Hello world!"); /* Ignore this test but print a message. */
+   int h01_arr[] = {255.928,0,0};
+    int h01_n = sizeof(h01_arr)/sizeof(int);
+    UNITY_TEST_ASSERT_EQUAL_INT((1), (convertKelvinTofahrenheit(h01_n, (int*)&h01_arr)), __LINE__, NULL)
+	//TEST_ASSERT_EQUAL( 1, convertKelvinTofahrenheit(h01_n, (int*)&h01_arr));
 }
 
 int main (void)
