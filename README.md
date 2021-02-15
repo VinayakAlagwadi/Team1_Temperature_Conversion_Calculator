@@ -59,7 +59,7 @@ A)	Structural Diagram:<br />
      ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/img/temp.png)<br />
        Fig: Class Diagram<br />
 B)	Behavioural Diagram:    <br />              
-![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/img/uscase1.png)<br />
+![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/img/usecase1.PNG)<br />
 Fig: Use Case Diagram<br />
 
 
