@@ -3,6 +3,7 @@
 ![Cppcheck](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/workflows/Cppcheck/badge.svg)
 ![Unity - Unit Testing](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/workflows/Unity%20-%20Unit%20Testing/badge.svg)
 ![C/C++ CI](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/workflows/C/C++%20CI/badge.svg)
+![Inspect](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/workflows/Inspect/badge.svg)
 
 # Software Requirement Specification<br />
 ## Temperature Conversion Calculator<br />
