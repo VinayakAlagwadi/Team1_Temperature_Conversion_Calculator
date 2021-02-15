@@ -30,7 +30,7 @@ Name                             |   PS No.  |    Features    |
 ---------------------------------|-----------|----------------|
 `1) Vinayak`               | 99003555  | Code Integration,coding,Testing|    
 `4) Amit`               | 99003566  |Coding ,code quality and structure,|  
-`3) Soumyajeet     `     | 99003548  |Coding,Testcases|        
+`3) Soumyajeet     `     | 99003548  |Coding, Documentation, Testcases|        
 `4) Roshan`             | 99003576  | Requirement Analysis,Design,coding          | 
 `5) Sirisha`             | 99003526  | Design,Documentation,coding  |  
 
@@ -70,5 +70,5 @@ Fig: Use Case Diagram<br />
 ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/img/test%20cases2.PNG)
 
 ### TEST CASES: (for currency converter)<br />
-![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/curr%20testcases.PNG)
+![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/img/curr%20testcases.PNG)
 
