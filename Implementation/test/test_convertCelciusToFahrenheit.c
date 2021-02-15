@@ -10,7 +10,9 @@ void test_convertCelciusToFahrenheit(void)
 {
     int h01_arr[] = {0,0,0};
     int h01_n = sizeof(h01_arr)/sizeof(int);
-	TEST_ASSERT_EQUAL( 32, convertCelciusToFahrenheit(h01_n, (int*)&h01_arr));
+    UnityAssertEqualNumber((UNITY_INT)((32)), (UNITY_INT)((convertCelciusToFahrenheit(h01_n, (int*)&h01_arr))), (((void *)0)), (UNITY_LINE_TYPE)(13), UNITY_DISPLAY_STYLE_INT)
+   // UNITY_TEST_ASSERT_EQUAL_INT((32), (convertCelciusToFahrenheit(h01_n, (int*)&h01_arr)), __LINE__, NULL)
+	//TEST_ASSERT_EQUAL( 32, convertCelciusToFahrenheit(h01_n, (int*)&h01_arr));
     
 }
 
