@@ -1,6 +1,5 @@
 name: Inspect
 
-
 on: [push]
 
 jobs:
