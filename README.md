@@ -25,7 +25,7 @@ How: Based on the user choice the following formulas are executed:<br />
 
 Name                             |   PS No.  |    Features    |       
 ---------------------------------|-----------|----------------|
-`1) Vinayak`               | 99003555  | Code Integration|    
+`1) Vinayak`               | 99003555  | Code Integration,coding,Testing|    
 `4) Amit`               | 99003566  |Coding ,code quality and structure,|  
 `3) Soumyajeet     `     | 99003548  |Coding|        
 `4) Roshan`             | 99003576  | Requirement Analysis,Design          | 
