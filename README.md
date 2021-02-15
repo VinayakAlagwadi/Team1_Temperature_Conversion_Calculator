@@ -1,5 +1,6 @@
 [![Code Quality Score](https://www.code-inspector.com/project/18978/score/svg)](https://frontend.code-inspector.com/public/project/18978/Team1_Temperature_Conversion_Calculator/dashboard)
 [![Code Grade](https://www.code-inspector.com/project/18978/status/svg)](https://frontend.code-inspector.com/public/project/18978/Team1_Temperature_Conversion_Calculator/dashboard)
+![Cppcheck](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/workflows/Cppcheck/badge.svg)
 
 # Software Requirement Specification<br />
 ## Temperature Conversion Calculator<br />
