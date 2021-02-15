@@ -1,4 +1,4 @@
-name: Unity - Unit Testing
+name: C/C++ CI
 
 on:
   push:
@@ -7,11 +7,11 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make -C Implementation/ test / test_convertCelciusToKelvin.c
+      run: make -C Implementation/ conversion.c
