@@ -1,6 +1,8 @@
 [![Code Quality Score](https://www.code-inspector.com/project/18978/score/svg)](https://frontend.code-inspector.com/public/project/18978/Team1_Temperature_Conversion_Calculator/dashboard)
 [![Code Grade](https://www.code-inspector.com/project/18978/status/svg)](https://frontend.code-inspector.com/public/project/18978/Team1_Temperature_Conversion_Calculator/dashboard)
 
+
+
 # Software Requirement Specification<br />
 ## Temperature Conversion Calculator<br />
 ### Purpose:
@@ -20,7 +22,28 @@ How: Based on the user choice the following formulas are executed:<br />
 •	Fahrenheit to Kelvin: kel = ((fah - 32)*5)/9 +273.15<br />
 •	Kelvin to Celsius: cel = (kel - 273.15)<br />
 •	Kelvin to Fahrenheit: fah = ((kel - 273.15)*9)/5+32<br />
-             
+
+
+## Contributors List
+
+Name                             |   PS No.  |    Features    |       
+---------------------------------|-----------|----------------|
+`1) Vinayak`               | 99003555  | Code Integration|    
+`4) Amit`               | 99003566  |Coding ,code quality and structure,|  
+`3) Soumyajeet     `     | 99003548  |Coding|        
+`4) Roshan`             | 99003576  | Requirement Analysis,Design          | 
+`5) Sirisha`             | 99003526  | Design,Documentation  |  
+
+
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`Requirement Analysis`      | Documents detailing requirements and research
+`Design`           | Documents specifying design details
+`Implementation`        | All code and documentation
+`Test Plan`         | Testing   
+`.github`          | Workflows 
+
 ### Specific Requirements:<br />
 1)	High level Requirements: <br />
 •	Software to code application<br />
@@ -43,9 +66,10 @@ Fig: Use Case Diagram<br />
 ### SWOT Analysis: <br />
    ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/img/Screenshot%20(2).png)<br />
  
-### TEST CASES: (for temperature converter)<br />
+### TEST CASES: <br />
 ![Alt Text](https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/img/test%20cases2.PNG)
+ 
+ 
+ 
 
-### TEST CASES: (for currency converter)<br />
-![Alt Text] (https://github.com/VinayakAlagwadi/Team1_Temperature_Conversion_Calculator/blob/main/test%20cases2.PNG)
 
